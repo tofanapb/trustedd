@@ -1,0 +1,467 @@
+/*
+
+Template Name : Name
+Author: Mahidul Islam Mukto
+website : htt://mukto.info
+
+*/
+
+/*===========
+CSS INDEX
+---------*/
+
+/*===========
+* Base CSS
+* Header CSS
+* Testimonial css
+* slider css
+* why-area css
+* Modal css
+* Faq area CSS
+* sponsor area CSS
+* Footer area CSS
+
+============*/
+
+/*===========
+Base CSS
+============*/
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #292929;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #292929;
+}
+
+a {
+    font-weight: 500;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/*===========
+Header CSS
+============*/
+#Header-area {
+    background-image: linear-gradient(135deg, #4b53dc 0%, #2f80d9 100%);
+    padding-bottom: 90px;
+}
+
+.menu-area {
+    width: 100%;
+    position: fixed;
+    padding: 20px 0;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    transition: .5s;
+}
+
+.hero-menu-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-menu-item ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.hero-menu-item ul li a {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-menu-item ul li a img {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 30px;
+}
+
+.hero-menu-item a:hover {
+    color: #000;
+}
+
+.hero-item {
+    margin-top: 150px;
+}
+
+.hero-img {
+    margin-top: 30px;
+}
+
+.hero-text-item h2 {
+    color: #ffffff;
+    font-size: 43px;
+    line-height: 54px;
+    margin-bottom: 45px;
+}
+
+.hero-text-item {
+    margin-top: 85px;
+}
+
+.hero-text-item p {
+    opacity: 0.85;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+a.hero-btn.active {
+    border-radius: 4px;
+    background-color: #10c793;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero-text-item .btn-primary {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+}
+
+a.hero-btn.active:hover,
+.btn-primary:hover {
+    background: #000;
+}
+
+.btn_area a,
+.btn_area button {
+    padding: 15px;
+    line-height: 20px;
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.why-area-item-inner:nth-child(even) .row {
+    flex-direction: row-reverse;
+}
+
+.why-area-item-inner {
+    margin: 50px 0;
+}
+
+.btn_area {
+    margin: 0 -5px;
+}
+
+/*--------------
+Modal css
+------------*/
+.modal-body.subscribe-form input {
+    width: 100%;
+    height: 50px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border: 1px solid #FBFBFD;
+}
+
+.subscribe-form input[type="submit"] {
+    display: inline-block;
+    color: #fff;
+    width: 50%;
+    border-radius: 6px;
+    background: #3B6FDB;
+    cursor: pointer;
+}
+
+/*--------------
+testimonial css
+------------*/
+
+.testimonial {
+    padding: 100px 0;
+    background: #fbfbfd;
+    border-bottom: 1px solid #eaedf3;
+}
+
+.testimonial-title h2 {
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+    bottom: 30px;
+}
+
+.testimonial-title h2:after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 121px;
+    left: 20%;
+    top: -60%;
+    background-image: url(../image/quote.png);
+}
+
+.testimonial-items img {
+    border-radius: 4px;
+    border: 1px solid #eaedf3;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 30px;
+    max-width: 25%;
+    height: auto;
+}
+
+.testimonial-items p.p-text {
+    color: #292929;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.testimonial-items p {
+    color: #8a8f9c;
+    font-family: 'Rubik', sans-serif;
+    line-height: 25px;
+}
+
+/*--------------
+slider css
+------------*/
+.testimonial-item-wrapper.owl-carousel .owl-dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #8c919d;
+    margin: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.testimonial-item-wrapper.owl-carousel .owl-dot.active {
+    background: #10c793;
+    width: 10px;
+    height: 10px;
+}
+
+/*--------------
+why-area css
+------------*/
+#why-area {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eaedf3;
+}
+
+.why-single-area-item h2 {
+    font-size: 40px;
+}
+
+.why-single-area-item p {
+    color: #292929;
+    font-family: 'Rubik', sans-serif;
+    line-height: 25px;
+}
+
+.why-single-area-item h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*--------------
+Faq-area css
+------------*/
+#faq-area {
+    padding: 90px 0;
+    border-bottom: 1px solid #EAEDF3;
+    background: #fbfbfd;
+}
+
+h2.faq-title {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+h2.faq-title strong {
+    color: #3667d1;
+}
+
+#faq-area .panel-header {
+    border-bottom: 2px solid #f2f4f8;
+    padding: 15px 0;
+    position: relative;
+}
+
+#faq-area .panel-header a {
+    color: #292929;
+    font-family: "Rubik Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    white-space: normal;
+}
+
+#faq-area .panel-body p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 25px;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+#faq-area .panel-header a:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 9px;
+    right: 0;
+    bottom: 45%;
+    background-image: url(../image/Shape-1.png);
+}
+
+#faq-area .panel-header a[aria-expanded="true"]:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 9px;
+    right: 0;
+    bottom: 45%;
+    background-image: url(../image/Shape-2.png);
+}
+
+#faq-area .panel-header a:hover {
+    color: #8C919D;
+}
+
+/*--------------
+Sponsor-area css
+------------*/
+.sponsor-area {
+    padding: 90px 0;
+}
+
+.sponsor-title h2 {
+    color: #3667d1;
+    font-size: 40px;
+}
+
+.sponsor-title p {
+    color: #8a8f9c;
+    font-family: 'Rubik', sans-serif;
+    line-height: 25px;
+}
+
+.sponsor-logo {
+    padding: 30px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+/*--------------
+Footer-area css
+------------*/
+#footer-area {
+    background: #292929;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-menu li a {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.footer-menu a:hover {
+    opacity: .8;
+}
+
+.footer-menu a img {
+    padding-right: 30px;
+    border-right: 1px solid #3f3f3f;
+}
+
+.footer-text {
+    margin-top: 8px;
+}
+
+.footer-text p {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.top-up {
+    position: fixed;
+    background: #ddd;
+    right: 40px;
+    bottom: 80px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 2.2;
+    padding-left: 12px;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu ul {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.menu-area.stky {
+    background: #000;
+    padding: 10px 0;
+    border: none;
+}
+
+.logo {
+    transition: .5s;
+}
+
+.menu-area.stky .logo {
+    transform: scale(.8);
+}
+
+img {
+    max-width: 100%;
+}
+.hero-menu-item ul li:last-child {
+    padding: 0;
+}

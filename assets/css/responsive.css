@@ -1,0 +1,84 @@
+
+@media screen and (max-width:767px){
+	.hero-menu-item ul {
+		text-align: right;
+	}
+	
+	.why-area-item-inner {
+		margin: 30px 0;
+	}
+	
+	.why-single-area-item h2 {
+		font-size: 24px;
+	}
+	
+	.why-single-area-item p {
+		font-size: 14px;
+	}
+	
+	.why-single-area-item h4 {
+		font-size: 16px;
+	}
+	
+	h2.faq-title {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#faq-area .panel-header a {
+		font-size: 16px;
+	}
+	
+	.panel-body p {
+		font-size: 14px;
+	}
+	
+	div#faq-area {
+		padding: 50px 0;
+	}
+	.sponsor-area {
+		padding: 30px 0;
+	}
+	.sponsor-title h2 {
+		font-size: 20px;
+	}
+	
+	.sponsor-title p {
+		font-size: 14px;
+	}
+	
+	.footer-menu ul {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.footer_content {
+		justify-content: space-between;
+	}
+	
+	.footer-text {
+		text-align: center;
+		border-top: 1px solid #D8D8D8;
+		margin: 10px 0;
+		padding-top: 10px;
+	}
+	
+}
+		@media screen and (max-width:600px){
+			.btn_area a, .btn_area button {
+				width: auto;
+				padding: 15px 0;
+				margin: 0;
+			}
+			
+			.btn_area {
+				display: grid;
+				grid-auto-flow: column;
+				margin: 0;
+				grid-gap: 10px;
+			}
+			.footer-menu li a {
+				font-size: 12px;
+			}
+		}
